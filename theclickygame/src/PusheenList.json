@@ -8,7 +8,8 @@
     {
         "id": 2,
         "name": "Pusheen2",
-        "image": "PusheenImages/pusheen2.jpg" 
+        "image": "PusheenImages/pusheen9.gif"
+     
     },
 
     {
@@ -26,13 +27,14 @@
     {
         "id": 5,
         "name": "Pusheen5",
-        "image": "PusheenImages/pusheen5.gif"
+        "image": "PusheenImages/pusheen6.jpg"
+        
     },
 
     {
         "id": 6,
         "name": "Pusheen6",
-        "image": "PusheenImages/pusheen6.jpg"
+        "image": "PusheenImages/pusheen5.gif"
     },
 
     {
@@ -50,6 +52,6 @@
     {
         "id": 9,
         "name": "Pusheen9",
-        "image": "PusheenImages/pusheen9.gif"
+        "image": "PusheenImages/pusheen2.jpg" 
     }
 ]
