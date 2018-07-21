@@ -1,1 +1,1 @@
-export { default } from "./ImageCards";
+export { default } from "./PusheenCard";
