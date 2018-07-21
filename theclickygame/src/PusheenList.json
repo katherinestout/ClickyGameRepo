@@ -2,54 +2,54 @@
     {
         "id": 1,
         "name": "Pusheen1",
-        "src": "./Pusheen/pusheen1.jpg" 
+        "image": "PusheenImages/pusheen1.jpg"
     },
 
     {
         "id": 2,
         "name": "Pusheen2",
-        "src": "./Pusheen/pusheen2.jpg" 
+        "image": "PusheenImages/pusheen2.jpg" 
     },
 
     {
         "id": 3,
         "name": "Pusheen3",
-        "src": "./Pusheen/pusheen3.jpg"
+        "image": "PusheenImages/pusheen3.jpg"
     },
 
     {
         "id": 4,
         "name": "Pusheen4",
-        "src": "./Pusheen/pusheen4.jpg"
+        "image": "PusheenImages/pusheen4.jpg"
     },
 
     {
         "id": 5,
         "name": "Pusheen5",
-        "src": "./Pusheen/pusheen5.jpg"
+        "image": "PusheenImages/pusheen5.gif"
     },
 
     {
         "id": 6,
         "name": "Pusheen6",
-        "src": "./Pusheen/pusheen6.jpg"
+        "image": "PusheenImages/pusheen6.jpg"
     },
 
     {
         "id": 7,
         "name": "Pusheen7",
-        "src": "./Pusheen/pusheen7.jpg"
+        "image": "PusheenImages/pusheen7.gif"
     },
 
     {
         "id": 8,
         "name": "Pusheen8",
-        "src": "./Pusheen/pusheen8.jpg"
+        "image": "PusheenImages/pusheen8.png"
     },
 
     {
         "id": 9,
         "name": "Pusheen9",
-        "src": "./Pusheen/pusheen9.jpg"
+        "image": "PusheenImages/pusheen9.gif"
     }
 ]
