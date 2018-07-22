@@ -7,7 +7,8 @@ class Navbar extends Component {
       <div id ="foot">
 
       </div>
-     
+     <div>
+       </div>
 </footer>
     );
   }
