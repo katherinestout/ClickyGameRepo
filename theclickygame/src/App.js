@@ -16,6 +16,7 @@ class App extends React.Component{
   state = {
     PusheenList,
     score: 0,
+    selectedPusheen: [],
   };
 
   constructor(props){
