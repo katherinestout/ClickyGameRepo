@@ -5,7 +5,7 @@ import PusheenList from "./PusheenList.json";
 import PusheenCard from "./components/PusheenCard/PusheenCard";
 import Wrapper from "./components/Wrapper/Wrapper";
 import NavBar from "./components/Navbar/Navbar"
-//import PusheenImages from "../public/PusheenImages"; 
+
 
 
 class App extends React.Component{
@@ -37,10 +37,11 @@ class App extends React.Component{
 //get all of the pusheens using map
 render(){
   return(
-    <Wrapper>
+    <div>
+    
 
       <NavBar score={this.state.score}/>
-  
+      <Wrapper>
 
     {this.state.PusheenList.map(PusheenList => (
 
@@ -56,6 +57,7 @@ render(){
     
     
     </Wrapper>
+    </div>
   );
 };
 }

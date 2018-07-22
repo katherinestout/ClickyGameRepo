@@ -16,7 +16,7 @@ const PusheenCard = props =>(
   <div className="content">
    
     <p>
-   each
+ 
     </p> 
 
     

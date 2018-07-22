@@ -51,5 +51,9 @@
     
         "name": "Pusheen9",
         "image": "PusheenImages/pusheen2.jpg" 
+    },
+    {
+        "name": "Pusheen10",
+        "image": "PusheenImages/pusheen10.gif"
     }
 ]

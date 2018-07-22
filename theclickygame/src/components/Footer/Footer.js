@@ -1,10 +1,16 @@
 import React from "react";
 
-const Footer = () => (
-  <div>
-   
-  
-  </div>
-);
+class Navbar extends Component {
+  render(){
+    return(
+<footer>
+      <div id ="foot">
+
+      </div>
+     
+</footer>
+    );
+  }
+}
 
 export default Footer;
