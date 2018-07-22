@@ -10,20 +10,24 @@ import NavBar from "./components/Navbar/Navbar"
 
 class App extends React.Component{
   //sets this.state.pusheenlist to the pusheenlist json array 
+ 
+
+
+  state = {
+    PusheenList,
+    score: 0,
+  };
+
   constructor(props){
     super(props);
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick(){
-    
-    console.log("yahoo");
-  };
 
-  state = {
-    PusheenList,
-   // score: 0,
-  };
+  handleClick= () => {
+    this.setState({score: this.state.score +1});
 
+    console.log("score:" + this.state.score);
+  };
 
 
 //this.onClick = this.handleClick.bind(this);
@@ -35,12 +39,12 @@ render(){
   return(
     <Wrapper>
 
-      <NavBar/>
+      <NavBar score={this.state.score}/>
   
 
     {this.state.PusheenList.map(PusheenList => (
 
-      <div onClick = {this.handleClick}>
+      <div onClick = {this.handleClick} count={this.state.count}>
         <PusheenCard 
         name key= {PusheenList.name}
         image = {PusheenList.image} 
