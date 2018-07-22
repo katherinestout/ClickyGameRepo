@@ -20,7 +20,7 @@ render(){
     {this.state.PusheenList.map(PusheenList => (
         
         <PusheenCard
-        name = {PusheenList.name}
+        name key= {PusheenList.name}
         image = {PusheenList.image}
         />
 

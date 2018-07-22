@@ -7,13 +7,14 @@ const PusheenCard = props =>(
   <div className ="card">
   <div className = "img-container">
 
-  <img alt={props.name} src ={props.image} />
+  <img alt="true" src ={props.image} />
+
   
   </div>
   <div className="content">
    
     <p>
-    EACH PUSHEEN
+   
     </p> 
 
     
